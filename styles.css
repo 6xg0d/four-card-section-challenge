@@ -3,7 +3,6 @@
 	margin: 0;
 	box-sizing: border-box;
 }
-
 body {
 	display: flex;
 	flex-direction: column;
@@ -12,12 +11,11 @@ body {
 	min-height: 100vh;
 	font-family: Poppins, sans-serif;
 	background-color: hsl(0, 0%, 98%);
-	padding: 30px;
+	padding: 0 30px;
 }
-
 .container {
 	display: grid;
-	grid-template-columns: 1fr;
+	grid-template-columns: minmax(20em, 24.688em);
 	grid-row-gap: 25px;
 }
 /*Cards*/
@@ -25,22 +23,10 @@ body {
 	display: flex;
 	flex-direction: column;
 	padding: 20px 20px 30px 20px;
-	max-width: 24.688em;
 	background-color: #fff;
 	border-radius: 5px;
-	border-top-width: 3px;
-	border-top-style: solid;
+	border-top: 3px solid;
 	box-shadow: 0 10px 20px 0 hsl(229, 6%, 81.25%);
-}
-.card > h2 {
-	color: hsl(234, 12%, 34%);
-	font-weight: 600;
-}
-.card > img {
-	display: block;
-	align-self: flex-end;
-	margin-top: 15%;
-
 }
 .supervisor {
 	border-top-color: hsl(180, 62%, 55%);
@@ -54,7 +40,16 @@ body {
 .calculator {
 	border-top-color: hsl(212, 86%, 64%);
 }
-/*Titles*/
+.card > h2 {
+	color: hsl(234, 12%, 34%);
+	font-weight: 600;
+}
+.card > img {
+	display: block;
+	align-self: flex-end;
+	margin-top: 15%;
+}
+/*Titles and text*/
 h1 {
 	text-align: center;
 	font-size: 2em;
@@ -71,7 +66,7 @@ h1 {
 .product-description {
 	text-align: center;
 	font-weight: 400;
-	margin-bottom: 90px;
+	margin-bottom: 70px;
 }
 .description {
 	line-height: 2em;
@@ -80,4 +75,19 @@ h1 {
 .product-description {
 	font-size: 0.938em;
 	color: hsl(229, 6%, 66%);	
+}
+/*Responsive*/
+@media (min-width: 1053px) {
+	.container {
+		grid-template-columns: repeat(3, minmax(20em, 24.688em));
+		grid-column-gap: 25px;	
+	}
+	.karma {
+		grid-column: 2 / 3;
+		grid-row-start: 2;
+	}
+	.supervisor, .calculator {
+		position: relative;
+		top: 50%;
+	}
 }

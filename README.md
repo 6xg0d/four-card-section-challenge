@@ -14,7 +14,6 @@ This is a solution to the [Four card feature section challenge on Frontend Mento
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -26,7 +25,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./Screenshot-desktop.jpg)
 
 ### Links
 
@@ -34,6 +33,8 @@ Users should be able to:
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
+
+Grid is still being complicate to me, but i figured out the basics and was able to complete the challenge. Still having to improve a few details, but to be my first time with grid, i think isn't too bad! :)
 
 ### Built with
 
@@ -45,15 +46,17 @@ Users should be able to:
 
 ### What I learned
 
+I learned the basics of CSS grid. Still having to practice and get used to it, but i was great to learn something new! Also i used the CSS position property (never used before) and it was awesome how i recognized that it'd help me in this challenge, so i'm proud that i'm getting better after practicing with the challenges.
+
 ### Continued development
+
+I'm quiet happy with the results, but after getting better with Grid i'll come back and optimize the CSS file. Also to set the svg on the bottom right side better, i used margin-top:15%, but still doesn't look exactly as it should, and make the "karma" card the same size as the other ones. For some reason, after relocate it at the bottom it gets a little bit smaller than this other.
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [Manz.dev Grid article](https://lenguajecss.com/css/maquetacion-y-colocacion/grid-css/) - This helped me to understand how grid works. (spanish language resource)
+- [Midudev Grid Crash Course](https://www.youtube.com/watch?v=iTjkiI8QQsM) - This course also helped me to get used to the basics of grid. (spanish language resource)
 
 ## Author
 
 - Frontend Mentor - [@6xg0d](https://www.frontendmentor.io/profile/6xg0d)
-
-## Acknowledgments
