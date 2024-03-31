@@ -1,0 +1,83 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	font-family: Poppins, sans-serif;
+	background-color: hsl(0, 0%, 98%);
+	padding: 30px;
+}
+
+.container {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-row-gap: 25px;
+}
+/*Cards*/
+.card {
+	display: flex;
+	flex-direction: column;
+	padding: 20px 20px 30px 20px;
+	max-width: 24.688em;
+	background-color: #fff;
+	border-radius: 5px;
+	border-top-width: 3px;
+	border-top-style: solid;
+	box-shadow: 0 10px 20px 0 hsl(229, 6%, 81.25%);
+}
+.card > h2 {
+	color: hsl(234, 12%, 34%);
+	font-weight: 600;
+}
+.card > img {
+	display: block;
+	align-self: flex-end;
+	margin-top: 15%;
+
+}
+.supervisor {
+	border-top-color: hsl(180, 62%, 55%);
+}
+.team-builder {
+	border-top-color: hsl(0, 78%, 62%);
+}
+.karma {
+	border-top-color: hsl(34, 97%, 64%);
+}
+.calculator {
+	border-top-color: hsl(212, 86%, 64%);
+}
+/*Titles*/
+h1 {
+	text-align: center;
+	font-size: 2em;
+	margin-bottom: 20px;
+}
+.title1 {
+	font-weight: 200;
+	color:hsl(229, 6%, 66%);
+}
+.title2 {
+	font-weight: 600;
+	color:hsl(234, 12%, 34%);
+}
+.product-description {
+	text-align: center;
+	font-weight: 400;
+	margin-bottom: 90px;
+}
+.description {
+	line-height: 2em;
+}
+.description,
+.product-description {
+	font-size: 0.938em;
+	color: hsl(229, 6%, 66%);	
+}
